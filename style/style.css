@@ -49,7 +49,7 @@ header button {
 
 .banner-container {
     width: 100%;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     height: 652px;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,4 +89,5 @@ header button {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
