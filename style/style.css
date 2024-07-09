@@ -91,3 +91,95 @@ header button {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* development styles */
+.development-container {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-radius: 16px;
+    margin-bottom: 88px;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding-bottom: 80px;
+}
+
+.development-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 48px;
+}
+
+.development-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.development-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.development-description {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.development-description h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.development-description p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+
+.development-description button {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.development-description-first,
+.development-description-third {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.development-description-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
