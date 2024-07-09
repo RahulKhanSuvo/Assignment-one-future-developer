@@ -44,3 +44,49 @@ header button {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* Banner styles */
+
+.banner-container {
+    width: 100%;
+    background-image: url(/assets/Hero-bg.png);
+    height: 652px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-content {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    height: 652px;
+}
+
+.banner-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-content button {
+    padding: 21px 26px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
