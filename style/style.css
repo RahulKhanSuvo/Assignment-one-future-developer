@@ -226,3 +226,60 @@ iframe {
     border-radius: 16px;
 
 }
+
+/* target style */
+.target-container {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.target-title-description {
+    text-align: center;
+}
+
+.target-title-description h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.target-title-description p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+}
+
+.target-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card-one {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    /* width: 450px; */
+}
+
+.card-one img {
+    margin-bottom: 25px;
+}
+
+.card-one p {
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+
+.two {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.third {
+    background: rgba(255, 223, 0, 0.05);
+}
