@@ -343,3 +343,67 @@ iframe {
     margin-bottom: 24px;
 
 }
+
+/* support-style */
+.support-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 48px 64px;
+    background: linear-gradient(rgba(0, 0, 0, 0.600),
+            rgba(0, 0, 0, 0.600),
+            rgba(0, 0, 0, 0.600)),
+        url('../assets/handshake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 200px; */
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.support-container h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-container p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.support-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-input {
+    padding: 19px 20px;
+    width: 508px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+}
+
+.input-submit {
+    border: none;
+    border-radius: 8px;
+    padding: 17px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
