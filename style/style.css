@@ -435,6 +435,10 @@ footer h1 {
     font-weight: 600;
 }
 
+p {
+    opacity: 0.7;
+}
+
 .footer-container {
     width: 85%;
     margin: 0 auto;
@@ -442,8 +446,4 @@ footer h1 {
     display: flex;
     align-items: center;
     padding: 32px 0px;
-}
-
-p {
-    opacity: 0.7;
 }
