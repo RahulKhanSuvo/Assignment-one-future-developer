@@ -212,6 +212,7 @@ header button {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
+    opacity: 0.7;
 
 }
 
@@ -251,6 +252,7 @@ iframe {
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 48px;
+    opacity: 0.7;
 
 }
 
@@ -274,6 +276,7 @@ iframe {
 .card-one p {
     margin-top: 9px;
     margin-bottom: 25px;
+    opacity: 0.7;
 }
 
 .card-one a {
@@ -326,6 +329,7 @@ iframe {
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 45px;
+    opacity: 0.7;
 }
 
 .next-target-layer h3 {
@@ -341,6 +345,7 @@ iframe {
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 24px;
+    opacity: 0.7;
 
 }
 
@@ -357,10 +362,20 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* height: 200px; */
     border-radius: 16px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 490px;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .support-container h2 {
@@ -401,9 +416,34 @@ iframe {
 .input-submit {
     border: none;
     border-radius: 8px;
-    padding: 17px 20px;
+    padding: 18px 20px;
     color: rgb(13, 19, 33);
     font-size: 20px;
     cursor: pointer;
     font-weight: 600;
+}
+
+/* footer style start here */
+footer {
+    border-radius: 16px;
+    background: rgba(24, 76, 197, 0.03);
+}
+
+footer h1 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-container {
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+p {
+    opacity: 0.7;
 }
