@@ -176,7 +176,8 @@ header button {
 
 .development-description-second {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
     align-items: center;
     padding: 48px;
     margin-left: 90px;
