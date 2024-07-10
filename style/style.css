@@ -276,10 +276,70 @@ iframe {
     margin-bottom: 25px;
 }
 
+.card-one a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .two {
     background: rgba(0, 76, 232, 0.05);
 }
 
 .third {
     background: rgba(255, 223, 0, 0.05);
+}
+
+.next-target-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.next-target-layer {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+.next-target-title h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.next-target-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.next-target-layer h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.next-target-layer p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 24px;
+
 }
